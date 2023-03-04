@@ -1,0 +1,43 @@
+colors:
+  bright:
+    black: '#282a40'
+    blue: '#a3c5ff'
+    cyan: '#98fffd'
+    green: '#e0ffad'
+    magenta: '#d6afed'
+    red: '#ff0000'
+    white: '#d1e5ed'
+    yellow: '#ffee7e'
+  normal:
+    black: '#c5c9de'
+    blue: '#93bbff'
+    cyan: '#98e4ff'
+    green: '#cdea9f'
+    magenta: '#d3a7ee'
+    red: '#ff0000'
+    white: '#bfd5de'
+    yellow: '#ffd47e'
+  primary:
+    background: '#0f101a'
+    foreground: '#c5c9de'
+font:
+  bold:
+    family: JetBrainsMonoNL Nerd Font Mono
+    style: Bold
+  bold_italic:
+    family: JetBrains Mono
+    style: Bold Italic
+  italic:
+    family: JetBrainsMonoNL Nerd Font Mono
+    style: Italic
+  normal:
+    family: JetBrainsMonoNL Nerd Font Mono
+    style: Regular
+  size: 13.0
+scrolling:
+  history: 50000
+window:
+  opacity: 1
+  padding:
+    x: 3
+    y: 3
