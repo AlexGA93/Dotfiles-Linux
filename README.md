@@ -6,16 +6,17 @@
 ## Content
 Content Table:
 
-|           Name            |          Description          | Config Path                       |
-|---------------------------|-------------------------------|-----------------------------------|
-|   [i3](#i3)                  |      Tilling Window Manager   |      ~/.config/i3                 |
-|   [Bumblebee-status bar](#bumblebee-status-bar)|      Status Bar               |      ~/.config/bumblebee-status   |
-|   [Alacritty](#alacritty)          |      Terminal                 |      ~/.config/alacritty          |
-|   [Rofi](#rofi)                |      App Searcher             |      ~/.config/rofi               |
-|   [Thunar](#file-manager---thunar)              |      File Manager             |      ~/.config/thunar             |
-|   [LxAppearance](#system-theme-manager---lxappearance)        |      Theme Manager            |                                   |
-|   [Fonts](#fonts---nerd-fonts)               |      JetBrainsMono Nerd Fonts |                                   |
-|   [Theme](#theme)               |      Global Arco Linux Theme  |                                   |
+|           Name                                        |         Description           |            Config Path            |
+|-------------------------------------------------------|-------------------------------|-----------------------------------|
+|   [i3](#i3)                                           |      Tilling Window Manager   |      ~/.config/i3                 |
+|   [Bumblebee-status bar](#bumblebee-status-bar)       |      Status Bar               |      ~/.config/bumblebee-status   |
+|   [Alacritty](#alacritty)                             |      Terminal                 |      ~/.config/alacritty          |
+|   [Rofi](#rofi)                                       |      App Searcher             |      ~/.config/rofi               |
+|   [Thunar](#file-manager---thunar)                    |      File Manager             |      ~/.config/thunar             |
+|   [LxAppearance](#system-theme-manager---lxappearance)|      Theme Manager            |                                   |
+|   [Fonts](#fonts---nerd-fonts)                        |      JetBrainsMono Nerd Fonts |                                   |
+|   [Theme](#theme)                                     |      Global Arco Linux Theme  |                                   |
+|   [Starship Terminal]()|||
 
 ## I3
 Installation Path
@@ -92,3 +93,6 @@ Download a favorite font from the [official site](https://www.nerdfonts.com/) an
 ## Theme
 Arco Linux has a tool name **Arch Linux Tweak Tool** where we can select the theme and color combination that user wants.
 
+## Starship - Cross-Shell Prompt
+
+- [Official site](https://starship.rs/)
