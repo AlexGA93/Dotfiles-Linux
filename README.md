@@ -17,6 +17,7 @@ Content Table:
 |   [Fonts](#fonts---nerd-fonts)                        |      JetBrainsMono Nerd Fonts |                                   |
 |   [Theme](#theme)                                     |      Global Arco Linux Theme  |                                   |
 |   [Starship Terminal]()|||
+|   [Calcurse](#calcurse)|Terminal Calendar App|/home/user/.local/share/calcurse/|
 
 ## I3
 Installation Path
@@ -96,3 +97,27 @@ Arco Linux has a tool name **Arch Linux Tweak Tool** where we can select the the
 ## Starship - Cross-Shell Prompt
 
 - [Official site](https://starship.rs/)
+
+## Calcurse
+calcurse is a calendar and scheduling application for the command line. It helps keep track of events, appointments and everyday tasks. A configurable notification system reminds user of upcoming deadlines, the curses based interface can be customized to suit user needs and a very powerful set of command line options can be used to filter and format appointments, making it suitable for use in scripts.
+
+Never miss a release again. If you want to receive release announcements, you can add your email address to the announcement mailing list here.
+
+Love calcurse? Contribute by writing code or make a donation to support the project. 
+
+- [Official site](https://www.calcurse.org/)
+- Installation
+    ```
+    sudo pacman -S calcurse
+    ```
+- Calcurse configuration
+    ```
+    man calcurse
+    ```
+- Import Calendar
+    To import a calendar in our app we must download our 'calendar_file.ics' and enter the following command:
+    ```
+    calendar --import calendar_file.ics
+    ```
+- Edit Calendar notes
+    We can edit our calendar's files in the path **/home/user/.local/share/calcurse/**.
