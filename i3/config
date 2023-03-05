@@ -76,7 +76,7 @@ bindsym $mod+Shift+0 move container to workspace 10; workspace 10
 ################# menu's in arcolinux
 
 # start rofi
-bindsym $mod+d exec --no-startup-id "rofi -show-icons -font 'JetBrainsMonoNL Nerd Font Mono 13' -theme ~/.config/rofi/themes/rounded-red-dark.rasi -show drun"
+bindsym $mod+d exec --no-startup-id "rofi -show-icons -font 'JetBrainsMonoNL Nerd Font Mono 13' -theme ~/.config/rofi/themes/windows11-grid-dark.rasi -show drun"
 
 
 # start xlunch app launcher
@@ -110,7 +110,7 @@ mode "$mode_system" {
 
 # ArcoLinux Logout
 bindsym $mod+Shift+e exec --no-startup-id archlinux-logout
-bindsym $mod+X exec --no-startup-id archlinux-logout
+# bindsym $mod+X exec --no-startup-id archlinux-logout
 
 ################# reload changed configuration     
 
@@ -345,7 +345,7 @@ exec --no-startup-id volumeicon
 # exec --no-startup-id xfce4-clipman
 
 # Conky
-# exec --no-startup-id conky -c ~/.config/i3/system-overview
+exec --no-startup-id conky -c ~/.config/i3/system-overview
 
 # Wallpapers
 exec_always	--no-startup-id	nitrogen --restore
@@ -589,6 +589,8 @@ popup_during_fullscreen smart
 # delete or uncomment the following lines if you do not have it or do not
 # want it
 
+# border_radius 4
+
 for_window [class="^.*"] border pixel 2
 gaps inner 10
 gaps outer 5
@@ -693,4 +695,4 @@ bar {
 
     ##STOP THEMING WM
 
-######################################## THE END 
+######################################## THE END  
