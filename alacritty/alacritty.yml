@@ -18,7 +18,7 @@ colors:
     white: '#bfd5de'
     yellow: '#ffd47e'
   primary:
-    background: '#1e1e2e'
+    background: '#11111B'
     foreground: '#cba6f7'
 font:
   bold:
