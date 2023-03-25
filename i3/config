@@ -646,19 +646,20 @@ bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
 bar {
 
     # BUMBLEBEE-STATUS BAR
-    status_command ~/.config/bumblebee-status/bumblebee-status \
-	-m arch_update spacer brightness spacer datetime spacer disk spacer xrandr spacer memory spacer pasource spacer pasink spacer spotify  \
-	-t iceberg-rainbow \
-	-p cpu.warning:85% \
-	-p cpu.critical:90% \
-	-p cpu.percpu: true \
+    # status_command ~/.config/bumblebee-status/bumblebee-status \
+	# -m arch_update spacer brightness spacer datetime spacer disk spacer xrandr spacer memory spacer pasource spacer pasink spacer spotify  \
+	# -t iceberg-rainbow \
+	# -p cpu.warning:85% \
+	# -p cpu.critical:90% \
+	# -p cpu.percpu: true \
 
     # POLYBAR BAR
-    # i3bar_command $HOME/.config/polybar/launch.sh  
+    # i3bar_command $HOME/.config/polybar/launch.sh 
+    i3bar_command $HOME/.config/polybar/polybar-collection/launch.sh
 
     height 25
     workspace_buttons yes
-	font pango:JetBrainsMonoNL Nerd Font Mono 10
+	font pango:JetBrainsMono Nerd Font Mono 10
     position top
 
     tray_output none

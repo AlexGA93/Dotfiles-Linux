@@ -18,22 +18,22 @@ colors:
     white: '#bfd5de'
     yellow: '#ffd47e'
   primary:
-    background: '#0f101a'
-    foreground: '#c5c9de'
+    background: '#1e1e2e'
+    foreground: '#cba6f7'
 font:
   bold:
-    family: JetBrainsMonoNL Nerd Font Mono
+    family: JetBrainsMono Nerd Font Mono
     style: Bold
   bold_italic:
     family: JetBrains Mono
     style: Bold Italic
   italic:
-    family: JetBrainsMonoNL Nerd Font Mono
+    family: JetBrainsMono Nerd Font Mono
     style: Italic
   normal:
-    family: JetBrainsMonoNL Nerd Font Mono
+    family: JetBrainsMono Nerd Font Mono
     style: Regular
-  size: 13.0
+  size: 11.0
 scrolling:
   history: 50000
 window:
